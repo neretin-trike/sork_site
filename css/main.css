@@ -493,15 +493,153 @@ main .clients{
     background-repeat: no-repeat;    
     background-position-x: 100%;
 }
-    
 
 /*--------------------------
     FOOTER
 ---------------------------*/
 
+footer{
+    background-color: #13112b;
+    color: white;
+    padding-top: 8rem;
+}
+
+footer h4{
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+footer h4:after{
+    text-align: center;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+    content: "";
+    height: 0.2rem;
+    width: 4rem;
+    background-color: #22eab8;
+}    
+
+footer .social-media p,
+footer .social-media small{
+    font-size: 1.3rem;
+    color: #7d7b92
+}
+
+footer .social-media small{
+    opacity: 0.4;
+}    
+
+footer .media-icon{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+
+    margin: 4rem 0;
+    margin-right: 0.5rem;
+
+}
+
+footer .media-icon.select{
+    background-color: #4cd3ff;
+    box-shadow: 0 0 3.5rem rgba(76,211,255,0.25);
+}
+
+footer .media-icon.select img{
+    opacity: 1;
+}
+
+footer .media-icon img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    
+}
+
+footer .resent-post{
+    margin-bottom: 2rem;    
+}
+
+footer .resent-post figcaption{
+    margin-left: 8rem;
+}   
+
+footer .resent-post figcaption p:first-child{
+    font-size: 1.4rem;
+    font-weight: 300;
+}    
+
+footer .resent-post figcaption p:last-child{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #7d7b92;
+}    
+
+footer .resent-post .img-post{
+    display: block;
+    width: 6.8rem;
+    height: 6.8rem;
+    overflow: hidden;
+    float: left;
+}
+
+footer .contact-info{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    padding-left: 6rem;
+
+    margin-bottom: 1rem;
+
+    background-repeat: no-repeat;
+    background-position: 2rem 1.5rem;
+
+    font-size: 1.3rem;
+    color: #7d7b92;
+    font-weight: 300;
+}
+
+footer .contact-info p{
+    margin-bottom:0.5rem;
+}    
+
+footer .contact-info.phone{
+    background-image: url(../images/phone.png);
+}    
+
+footer .contact-info.phone p:last-child{
+    color: white;
+    font-size: 2rem;
+}
+
+footer .contact-info.email{
+    background-image: url(../images/email.png);
+}   
+
+footer .contact-info.email p:last-child{
+    color: #fe4565;
+}    
+
+footer .contact-info.pin{
+    background-image: url(../images/pin.png);
+}   
+
+footer .container-fluid {
+    background-color: #1f1d36;
+    color: white;
+}
 
 footer ul{
     list-style-type: none;
+    margin:0;
+    padding: 4rem 0; 
 }
 footer ul li{
     display: inline-block;
