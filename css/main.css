@@ -110,11 +110,18 @@ h3 + p.white{
     color: white;
 }
 
-
 .navbar-right .special{
     display: inline-block;
-    /* background: red; */
+    background-color: #ff4081;
+    border-radius: 0.5rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    box-shadow: 0 0 3.5rem rgba(255,64,129,0.25);
 }
+
+.navbar-inverse  .navbar-right a.special:hover{
+    background-color: #ff4081;
+}    
 
 /*--------------------------
     HEADER
