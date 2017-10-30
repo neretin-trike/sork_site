@@ -10,7 +10,6 @@ body{
 
 .overlay{
     background-color: #00093b;
-    /* background-image: linear-gradient(to right, #09052f, #311d5e); */
     position: absolute;
     width: 100%;
     height: inherit;
@@ -22,9 +21,9 @@ body{
 .overlay-img{
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 
     position: absolute;
-    width: 100%;
     height: inherit;
 }
 
@@ -330,26 +329,131 @@ main .tabs .select:before{
     opacity: 1;
 }    
 
+#our-benefits figure .benefits-img{
+    display:inline-block;
+}
+
 #our-benefits figure p{
+    padding: 0 7.5rem;
     margin-top: 6rem;
     font-size: 3rem;
 }
 
 /*--------------------------
-    FOOTER
+    CLIENTS
 ---------------------------*/
+main .clients{
+    padding: 6.0rem 0;
 
-#our-benefits figure .benefits-img{
-    display:inline-block;
+    position: relative;
 }
+
+/*--------------------------
+    TESTIMONIALS
+---------------------------*/
+#testimonials{
+    background-color: #1f1d3d;
+    color: white;
+    height: 100%;
+    position: relative;
+
+    padding-bottom: 8rem;
+}
+
+.testi{
+    background-image: url('../images/clients_image.png');
+    background-position-y: 75%;
+}
+
+#testimonials blockquote{
+    background-color: rgba(255,255,255,0.05);
+    height: 21rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-top: 3.5rem;
+    
+    border: none;
+    font-weight: 300;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 2.9rem;
+
+}    
+
+#testimonials blockquote:before{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    /* background-color: red; */
+    background-image: url('../images/round_triangle.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 21rem;
+    left: 44.5%;
+}    
+
+#testimonials .quote:nth-child(1) blockquote{
+    border-top: 0.4rem solid #50c05f;
+}    
+
+#testimonials .quote:nth-child(2) blockquote{
+    border-top: 0.4rem solid #00bbd3;
+}    
+
+#testimonials .quote:nth-child(3) blockquote{
+    border-top: 0.4rem solid #fe4565;
+}    
+
+#testimonials figure{
+    margin-top: 4.5rem;
+}    
+
+#testimonials figure img{
+    border-radius: 90%;
+}
+
+#testimonials figure figcaption h3{
+    margin-top: 1.2rem;
+}    
+
+#testimonials figure figcaption p{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.54);
+    margin-top: 0.5rem;
+}    
 
 #testimonials ul{
+    margin-top: 6rem;
     list-style-type: none;
+    padding: 0;
 }
-
 #testimonials ul li{
     display: inline-block;
 }    
+
+#testimonials ul li a{
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 90%;
+
+    margin: 0 0.5rem; 
+}    
+
+#testimonials ul li a.select{
+    background-color: rgba(255, 255, 255, 1);
+}    
+
+/*--------------------------
+    FOOTER
+---------------------------*/
+
+
+
 
 footer ul{
     list-style-type: none;
