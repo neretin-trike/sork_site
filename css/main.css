@@ -16,6 +16,10 @@ body{
     opacity: 0.85;
 }
 
+#our-benefits figure .benefits-img{
+    display:inline-block;
+}
+
 /*--------------------------
     HEADER
 ---------------------------*/
