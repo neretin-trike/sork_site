@@ -61,20 +61,25 @@ footer ul li{
     color: white;
 }
 
+
+.navbar-right .special{
+    display: inline-block;
+    /* background: red; */
+}
+
 /*--------------------------
     HEADER
 ---------------------------*/
 header{
     padding-top:25rem;
-    height: 100%;
+    padding-bottom: 11rem;
 
     background-color: #1c33b0;    
+    height: 100%;
     position: relative;
-    /* height: inherit; */
-    width: 100%;
 }
 
-.overlay-2{
+header .background-image{
     position: absolute;
     left: 50%; top:0;
     width: 50%;
@@ -83,7 +88,6 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: inherit;
-    height: 100%;
 }
 
 header h1{
@@ -104,7 +108,6 @@ header .slogan{
 
 header .slider{
     margin-top: 9.5rem;
-    margin-bottom: 11rem;
 }
 
 header .slider .col-sm-6{
@@ -141,8 +144,6 @@ header .slider .content{
 header .slider .content img{
     height: 25rem;
 }    
-
-
 
 /*--------------------------
     EXPRETISE
