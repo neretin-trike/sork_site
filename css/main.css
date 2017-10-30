@@ -2,6 +2,10 @@ html{
     font-size: 62.25%;
 }
 
+body{
+    background-color: #301f37;
+    color: lightblue;
+}
 .overlay{
     background-image: linear-gradient(to right, #09052f, #311d5e);
     position: absolute;
