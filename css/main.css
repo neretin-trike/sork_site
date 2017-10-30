@@ -449,10 +449,55 @@ main .clients{
 }    
 
 /*--------------------------
-    FOOTER
+    CONTACT US
 ---------------------------*/
 
+#contact-us{
+    margin-bottom: 7.5rem;
+}
 
+#contact-us article p{
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+#contact-us form{
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #eeeeee;
+}
+
+#contact-us form input{
+    outline: none;
+    border: none;
+
+}
+
+#contact-us form input[type=text]{
+    font-weight: 300;
+    font-size: 3rem;
+    width: 89%;
+
+}    
+
+#contact-us form input[type=text]::placeholder{
+    color: #cccccc;
+
+}    
+
+#contact-us form input[type=submit]{
+
+    width: 9%;
+    background-color: transparent;
+    background-image: url(../images/message.png);
+    background-repeat: no-repeat;    
+    background-position-x: 100%;
+}
+    
+
+/*--------------------------
+    FOOTER
+---------------------------*/
 
 
 footer ul{
