@@ -77,6 +77,9 @@ h3 + p{
 
     margin-top: 2rem;
 
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+
 }
 
 h3.pink{
@@ -257,9 +260,7 @@ main .tabs .select:before{
 
 #website-design figure{
     padding-top: 3em;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-    
+
     height: 27rem;
     margin-bottom: 1rem;
     
@@ -276,12 +277,17 @@ main .tabs .select:before{
 }    
 
 /*--------------------------
-    WORKS
+    ABOUT US
 ---------------------------*/
 
-/*--------------------------
-    CONTACT
----------------------------*/
+#about-us .number{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 6rem;
+    letter-spacing: -0.078rem;
+
+    margin-top: 2rem;
+}
 
 /*--------------------------
     FOOTER
