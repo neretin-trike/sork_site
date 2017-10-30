@@ -27,6 +27,13 @@ body{
 #testimonials ul li{
     display: inline-block;
 }    
+
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    display: inline-block;
+}   
 /*--------------------------
     HEADER
 ---------------------------*/
