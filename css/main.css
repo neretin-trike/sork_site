@@ -632,6 +632,7 @@ footer .contact-info.pin{
 }   
 
 footer .container-fluid {
+    margin-top: 7rem;
     background-color: #1f1d36;
     color: white;
 }
@@ -642,5 +643,25 @@ footer ul{
     padding: 4rem 0; 
 }
 footer ul li{
+    text-align: center;
     display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 300;
 }   
+
+footer ul li:not(:last-child):after{
+    color: #7d7b92;
+    content: " ∣ ";
+    padding: 0.5rem;
+}    
+
+footer ul li a{
+    color: #7d7b92;
+
+}
+
+footer ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+    
