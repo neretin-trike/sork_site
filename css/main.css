@@ -3,8 +3,9 @@ html{
 }
 
 body{
-    background-color: #301f37;
-    color: white;
+    background-color: white;
+    /* background-color: #301f37; */
+    color: black;
 }
 .overlay{
     background-color: #00093b;
@@ -146,9 +147,33 @@ header .slider .content img{
 }    
 
 /*--------------------------
-    EXPRETISE
+    WEBSITE DESIGN
 ---------------------------*/
 
+#website-design .tabs{
+    padding-top: 3.0rem;
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+#website-design .tabs .select{
+    position: relative;
+}
+
+#website-design .tabs .select:before{
+    display: block;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 29rem;
+    height: 29rem;
+    background-color: #22eab8;
+    border-radius: 50%;
+    margin: 0 auto;
+    top: -12rem;
+    left: 0; right: 0;
+    box-shadow: 0 0 3.5rem rgba(34,234,184,0.25);
+}
 /*--------------------------
     WORKS
 ---------------------------*/
