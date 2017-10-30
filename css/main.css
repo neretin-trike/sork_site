@@ -3,8 +3,8 @@ html{
 }
 
 body{
+    font-family: 'Roboto';
     background-color: white;
-    /* background-color: #301f37; */
     color: #13112b;
 }
 
@@ -30,7 +30,6 @@ body{
 
 
 h2{
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 1.6rem;
     padding-top: 6rem;
@@ -48,7 +47,6 @@ h2:after{
 }
 
 h2 + p{
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 2.5rem;
     padding-bottom: 6rem;
@@ -61,7 +59,6 @@ h2.white{
 }
 
 h3{
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 2.4rem;
@@ -70,7 +67,6 @@ h3{
 }
 
 h3 + p{
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 1.4rem;
     line-height: 2rem;
@@ -108,7 +104,6 @@ h3 + p.white{
 }
 
 .navbar-inverse .navbar-nav li a{
-    font-family: 'Roboto';
     font-weight: 400;
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -147,7 +142,6 @@ header .background-image{
 }
 
 header h1{
-    font-family: 'Roboto';
     font-weight: 700;
     text-transform: uppercase;
     font-size: 4.6rem;
@@ -156,7 +150,6 @@ header h1{
 header .slogan{
     margin-top: 4.5rem;
 
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 2.6rem;
@@ -280,13 +273,66 @@ main .tabs .select:before{
     ABOUT US
 ---------------------------*/
 
+#about-us{
+    margin-bottom: 7rem;
+}
+
 #about-us .number{
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 6rem;
     letter-spacing: -0.078rem;
 
     margin-top: 2rem;
+}
+
+/*--------------------------
+    OUR BENEFITS
+---------------------------*/
+#our-benefits{
+    background-color: #1f1d3d;
+    color: white;
+    height: 100%;
+    position: relative;
+
+    padding-bottom: 8.5rem;
+}
+
+.benefits{
+    background-image: url('../images/benefits_image.png');
+    background-position-y: 50%;
+}
+
+#our-benefits .benefits-img{
+    width: 11rem;
+    height: 11rem;
+    margin-left: 1rem;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#our-benefits .benefits-img img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}    
+
+#our-benefits .benefits-img.select{
+    background-color:#fe4565;
+    box-shadow: 0 0 3.5rem rgba(254,69,101,0.25);
+}
+
+#our-benefits .benefits-img.select img{
+    opacity: 1;
+}    
+
+#our-benefits figure p{
+    margin-top: 6rem;
+    font-size: 3rem;
 }
 
 /*--------------------------
