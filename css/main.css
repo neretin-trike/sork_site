@@ -5,8 +5,9 @@ html{
 body{
     background-color: white;
     /* background-color: #301f37; */
-    color: black;
+    color: #13112b;
 }
+
 .overlay{
     background-color: #00093b;
     /* background-image: linear-gradient(to right, #09052f, #311d5e); */
@@ -28,24 +29,37 @@ body{
 }
 
 
-#our-benefits figure .benefits-img{
-    display:inline-block;
+h2{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.6rem;
+    padding-top: 6rem;
 }
 
-#testimonials ul{
-    list-style-type: none;
+h2:after{
+    text-align: center;
+    display: block;
+    margin: 2rem auto;
+
+    content: "";
+    height: 0.2rem;
+    width: 4rem;
+    background-color: #22eab8;
 }
 
-#testimonials ul li{
-    display: inline-block;
-}    
+h2 + p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 2.5rem;
+    padding-bottom: 6rem;
 
-footer ul{
-    list-style-type: none;
+    text-transform: uppercase;
 }
-footer ul li{
-    display: inline-block;
-}   
+
+h2.white{
+    color: white;
+}
+
 
 /*--------------------------
     NAV
@@ -210,12 +224,6 @@ main .tabs .select:before{
 
 .design{
     background-image: url('../images/website_image.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    position: absolute;
-    width: 100%;
-    height: inherit;
 }
 
 /*--------------------------
@@ -229,3 +237,22 @@ main .tabs .select:before{
 /*--------------------------
     FOOTER
 ---------------------------*/
+
+#our-benefits figure .benefits-img{
+    display:inline-block;
+}
+
+#testimonials ul{
+    list-style-type: none;
+}
+
+#testimonials ul li{
+    display: inline-block;
+}    
+
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    display: inline-block;
+}   
