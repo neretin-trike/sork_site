@@ -645,33 +645,51 @@ footer .container-fluid {
     margin-top: 7rem;
     background-color: #1f1d36;
     color: white;
+    position: relative;
 }
 
-footer ul{
+footer .container-fluid ul{
     list-style-type: none;
     margin:0;
     padding: 4rem 0; 
 }
-footer ul li{
+footer .container-fluid ul li{
     text-align: center;
     display: inline-block;
     font-size: 1.3rem;
     font-weight: 300;
 }   
 
-footer ul li:not(:last-child):after{
+footer .container-fluid ul li:not(:last-child):after{
     color: #7d7b92;
     content: " ∣ ";
     padding: 0.5rem;
 }    
 
-footer ul li a{
+footer .container-fluid ul li a{
     color: #7d7b92;
 
 }
 
-footer ul li a:hover{
+footer .container-fluid ul li a:hover{
     color: white;
     text-decoration: none;
 }
     
+footer .container-fluid .row > a{
+    display: block;
+
+    width: 5rem;
+    height: 5rem;
+    border-radius: 90%;
+    background-color: #4febc4;
+
+    position: absolute;
+    right: 5rem;
+    top:-2.5rem;
+    box-shadow: 0 0 3.5rem rgba(79,235,196,0.25);
+    
+    background-image: url(../images/arrow_up.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
