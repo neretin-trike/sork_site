@@ -205,7 +205,7 @@ header .slider .content img{
 ---------------------------*/
 
 main .tabs{
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 6.0rem 0;
 
     position: relative;
@@ -350,9 +350,11 @@ main .tabs .select:before{
     CLIENTS
 ---------------------------*/
 main .clients{
-    padding: 6.0rem 0;
-
     position: relative;
+}
+
+main .clients div img{
+    padding: 5rem 0;
 }
 
 /*--------------------------
@@ -374,9 +376,7 @@ main .clients{
 
 #testimonials blockquote{
     background-color: rgba(255,255,255,0.05);
-    height: 21rem;
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
+    min-height: 21rem;
     padding-top: 3.5rem;
     
     border: none;
@@ -391,14 +391,15 @@ main .clients{
     display: block;
     position: absolute;
     content: "";
-    width: 5rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    
+    width:5rem;
     height: 5rem;
-    /* background-color: red; */
     background-image: url('../images/round_triangle.png');
-    background-size: 100%;
     background-repeat: no-repeat;
     top: 21rem;
-    left: 44.5%;
+    left:50%;
 }    
 
 #testimonials .quote:nth-child(1) blockquote{
@@ -572,10 +573,12 @@ footer .media-icon img{
 }
 
 footer .resent-post{
-    margin-bottom: 2rem;    
+    padding-bottom: 1rem;    
+    clear:both;
 }
 
 footer .resent-post figcaption{
+    margin-top: 1rem;
     margin-left: 8rem;
 }   
 
